@@ -153,6 +153,10 @@ grand_duchy_reform = {
 	valid_for_nation_designer = yes
 	nation_designer_cost = 10
 	modifiers = {
+		diplomatic_upkeep = 2
+		min_autonomy_in_territories = -0.25
+		land_maintenance_modifier = -0.25
+		num_accepted_cultures = 2
 		governing_capacity = 100
 	}
 }
