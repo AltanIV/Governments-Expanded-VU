@@ -1,6 +1,6 @@
 government = monarchy
 add_government_reform = granadan_iqta_reform 
-primary_culture = andalucian
+primary_culture = andalusi_culture
 religion = sunni
 add_accepted_culture = berber
 technology_group = muslim

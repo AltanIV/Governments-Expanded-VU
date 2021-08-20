@@ -153,6 +153,10 @@ grand_duchy_reform = {
 	valid_for_nation_designer = yes
 	nation_designer_cost = 10
 	modifiers = {
+		diplomatic_upkeep = 2
+		min_autonomy_in_territories = -0.25
+		land_maintenance_modifier = -0.25
+		num_accepted_cultures = 2
 		governing_capacity = 100
 	}
 }
@@ -397,7 +401,7 @@ elective_monarchy = {
 		vassal_income = 0.25
 		global_unrest = -1
 		max_absolutism = -30
-		governing_capacity = 100
+		governing_capacity = 400 
 	}
 
 	conditional = {
@@ -499,7 +503,7 @@ ottoman_government = {
 		unjustified_demands = -0.1
 		legitimacy = 0.5
 		max_absolutism = 5
-		governing_capacity = 150
+		governing_capacity = 300
 	}
 
 	custom_attributes = {
