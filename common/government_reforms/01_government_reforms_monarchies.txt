@@ -397,7 +397,7 @@ elective_monarchy = {
 		vassal_income = 0.25
 		global_unrest = -1
 		max_absolutism = -30
-		governing_capacity = 100
+		governing_capacity = 400 
 	}
 
 	conditional = {
