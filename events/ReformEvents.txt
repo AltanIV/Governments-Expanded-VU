@@ -5389,13 +5389,13 @@ country_event = {
 					hidden = yes
 				}
 			}
-			western_sicily_area = {
-				add_province_modifier = {
-					name = Kingdom_Of_Sicily
-					duration = -1
-					hidden = yes
-				}
-			}
+			#western_sicily_area = {  Removed for VU since Westerne Sicily doesn't exist at this point
+			#	add_province_modifier = {
+			#		name = Kingdom_Of_Sicily
+			#		duration = -1
+			#		hidden = yes
+			#	}
+			#}
 		}
 	}
 	
@@ -6956,7 +6956,7 @@ country_event = {
 				AND = {
 					OR = {
 						has_building = counting_house 
-						has_building = steam_factory
+						has_building = manufactory # VU : replaced steam_factory because doesn't exist
 					}
 					NOT = { has_province_modifier = Promoted_Industry_v2 }
 				}
@@ -6986,7 +6986,7 @@ country_event = {
 			limit = {
 				OR = {
 					has_building = counting_house 
-					has_building = steam_factory
+					has_building = manufactory # VU : replaced steam_factory because doesn't exist
 				}
 				NOT = {	has_province_modifier = Promoted_Industry_v2 }
             }
