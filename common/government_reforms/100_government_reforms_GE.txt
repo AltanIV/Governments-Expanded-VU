@@ -660,7 +660,7 @@
 			OR = {
 				AND = {
 					religion_group = muslim
-					culture_group = iberian	
+					culture = andalusi_culture	
 				}
 				has_reform = granadan_iqta_reform
 			}
@@ -669,7 +669,7 @@
 			OR = {
 				AND = {
 					religion_group = muslim
-					culture_group = iberian	
+					culture = andalusi_culture	
 				}
 				has_reform = granadan_iqta_reform
 			}
@@ -702,7 +702,7 @@
 			OR = {
 				AND = {
 					religion_group = muslim
-					culture_group = iberian	
+					culture = andalusi_culture	
 				}
 			}
 		}
@@ -710,7 +710,7 @@
 			OR = {
 				AND = {
 					religion_group = muslim
-					culture_group = iberian	
+					culture = andalusi_culture	
 				}
 				has_reform = emirate_of_andalusia_reform
 				OR = {
@@ -2613,6 +2613,7 @@
 			NOT = { has_reform = polish_constitutionalism_reform }
 		}
 		modifiers = {
+			global_unrest = -1
 			manpower_recovery_speed = 0.10
 			noble_privilege_slots = 0.01
 		}
@@ -2717,7 +2718,7 @@
 			OR = {
 				AND = {
 					religion_group = muslim
-					culture_group = iberian	
+					culture = andalusi_culture	
 				}
 				has_reform = taha_divisions_reform 
 			}
@@ -2726,7 +2727,7 @@
 			OR = {
 				AND = {
 					religion_group = muslim
-					culture_group = iberian	
+					culture = andalusi_culture	
 				}
 				has_reform = taha_divisions_reform 
 			}
@@ -4328,7 +4329,7 @@
 			}
 		}
 		modifiers = {
-			#global_autonomy = -0.025
+			global_autonomy = -0.025
 			yearly_corruption = -0.05
 			nobles_influence_modifier = -0.10
 		}
@@ -4779,7 +4780,7 @@
 			OR = {
 				AND = {
 					religion_group = muslim
-					culture_group = iberian	
+					culture = andalusi_culture	
 				}
 				has_reform = taha_divisions_reform 
 			}
@@ -4788,7 +4789,7 @@
 			OR = {
 				AND = {
 					religion_group = muslim
-					culture_group = iberian	
+					culture = andalusi_culture	
 				}
 				has_reform = taha_divisions_reform 
 			}
@@ -6257,7 +6258,7 @@
 			OR = {
 				AND = {
 					religion_group = muslim
-					culture_group = iberian	
+					culture = andalusi_culture
 				}
 				has_reform = cultural_investment_reform 
 			}
@@ -6266,7 +6267,7 @@
 			OR = {
 				AND = {
 					religion_group = muslim
-					culture_group = iberian	
+					culture = andalusi_culture	
 				}
 				has_reform = cultural_investment_reform 
 			}
@@ -9432,7 +9433,7 @@
 			OR = {
 				AND = {
 					religion_group = muslim
-					culture_group = iberian	
+					culture = andalusi_culture	
 				}
 				has_reform = berber_cavalry_reform 
 			}
@@ -9441,7 +9442,7 @@
 			OR = {
 				AND = {
 					religion_group = muslim
-					culture_group = iberian	
+					culture = andalusi_culture	
 				}
 				has_reform = berber_cavalry_reform 
 			}
