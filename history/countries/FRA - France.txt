@@ -143,6 +143,7 @@ change_estate_land_share = {
 
 1444.10.1 = {
 	set_estate_privilege = estate_nobles_french_strong_duchies
+	set_estate_privilege = estate_nobles_very_strong_duchies
 }
 
 1455.1.1 = { add_army_professionalism = 0.1 }
@@ -860,7 +861,7 @@ add_government_reform = autocracy_reform }
 
 1748.1.1 = { leader = {	name = "Emmanuel d'Aiguillon"	type = general	fire = 2	shock = 3	manuever = 5	siege = 0	death_date = 1753.1.1 } }
 
-#1748.1.1 = { leader = {	name = "Francois de Chevert"	type = general	fire = 2	shock = 2	manuever = 3	siege = 0	death_date = 1758.1.1 } } # Removed /SWÖ
+#1748.1.1 = { leader = {	name = "François de Chevert"	type = general	fire = 2	shock = 2	manuever = 3	siege = 0	death_date = 1758.1.1 } } # Removed /SWÖ
 
 1748.1.1 = { leader = {	name = "Thomas de Lally-Tollendal"	type = general	fire = 3	shock = 4	manuever = 4	siege = 0	death_date = 1761.1.16 } }
 
