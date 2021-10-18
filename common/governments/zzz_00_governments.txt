@@ -32,6 +32,8 @@ monarchy = {
 				austrian_archduchy_reform
 				siamese_absolutism
 				confucian_bureaucracy
+				#Special
+				polynesian_kingdom
 				#ME
 				crusader_kingdom
 				khaganate
@@ -100,6 +102,9 @@ monarchy = {
 				tanistry_reform
 				#1.16
 				kingdom_of_gao_reform
+				kingdom_of_sardinia_reform
+				#1.18
+				klever_union_reform
 			}
 		}
 		hereditary_vs_nobility = {
@@ -188,6 +193,8 @@ monarchy = {
 				#1.16
 				slave_farmer_reform
 				carriers_of_the_quiver_reform
+				#1.17
+				generic_nobles_priests_reform
 			}
 		}
 		bureaucracy = {
@@ -269,6 +276,10 @@ monarchy = {
 				#1.16
 				kinsmen_governors_reform
 				farba_system_reform
+				#1.17
+				inca_mountain_farms
+				#1.18
+				renaissance_forts_reform
 			}
 		}
 		military_organisation = {
@@ -338,6 +349,8 @@ monarchy = {
 				#1.16
 				slave_soldiers_reform
 				farari_commanders_reform
+				#1.18
+				wacht_am_rhein_reform
 			}
 		}
 		growth_of_administration = {
@@ -363,7 +376,7 @@ monarchy = {
 				#conseil_du_roi_reform #FRA
 				parisian_court_reform
 				corps_diplomatique_reform
-				table_of_ranks_reform
+				
 				the_judicature_ordinance_reform
 				christian_four_merchantile_reform
 				declario_ferdinandei_reform
@@ -401,6 +414,8 @@ monarchy = {
 				italian_merchants_reform
 				#1.16
 				graduates_from_timbuktu_reform
+				#1.18
+				via_media_reform
 			}
 		}
 		deliberative_assembly = {
@@ -451,6 +466,7 @@ monarchy = {
 				sultanate_of_women_reform
 				euijung_bu_seosajae_reform
 				tripartum_reform
+				table_of_ranks_reform
 				#1.13
 				theatines_reform
 				restored_land_establishment_reform
@@ -708,8 +724,7 @@ republic = {
 				russian_republic_republic
 				caucasian_republic
 				common_republic_reform
-				lombardy_venetia_reform
-				#constitutional_republic_reform
+				constitutional_republic_reform
 			}
 		}
 		republican_virtues = {
@@ -739,7 +754,8 @@ republic = {
 				legacy_of_st_ambrose_reform
 				hanseatic_ties_reform
 				archdiocese_of_pisa_reform
-				#republican_virtues_reform
+				genoa_merchants_reform
+				republican_virtues_reform
 			}
 		}
 		frequent_elections_vs_consolidation_of_power = {
@@ -816,9 +832,8 @@ republic = {
 				almogavars_reform
 				republican_guard_reform_republic
 				crusading_tradition_reform
-				teulie_reform_republic_reform
-				#citizen_soldiers_reform
-				#institutionalized_repbulican_army_reform
+				citizen_soldiers_reform
+				institutionalized_repbulican_army_reform
 			}
 		}
 		federalism_vs_unitarism_vs_confederacy = {
@@ -826,6 +841,7 @@ republic = {
 				provincial_governments_reform
 				administrative_divisions_reform
 				union_of_states_reform
+				confederate_nations_reform
 				penal_colonies_reform
 				advanced_bookkeeping_reform_republic
 				advanced_bookkeeping_reform_republic_venice
@@ -836,8 +852,8 @@ republic = {
 				union_of_italian_states_reform
 				volost_colonies_reform
 				island_republic_reform
-				#federalism_reform
-				#supremacy_constitution_reform
+				federalism_reform
+				supremacy_constitution_reform
 			}
 		}
 		parliamentary_vs_presidential = {
@@ -861,8 +877,8 @@ republic = {
 				council_of_petitions_reform
 				hansa_representatives_reform
 				council_of_lords_reform
-				#primacy_legislature_reform
-				#judicial_review_reform
+				primacy_legislature_reform
+				judicial_review_reform
 			}
 		}
 		consolidation_of_power_category = {
@@ -878,8 +894,9 @@ republic = {
 				empowered_aristocratic_courts_reform
 				empowered_sovereign_trade_companies_reform
 				empowered_consolidation_of_power_reform
-				#imperial_executive_branch_power_reform
-				#federal_governorship_reform
+				empowered_senate_reform
+				imperial_executive_branch_power_reform
+				federal_governorship_reform
 			}
 		}
 		guiding_principle_of_administration = {
@@ -891,12 +908,13 @@ republic = {
 				imperial_principle_reform
 				#GE
 				national_principle_reform
+				liberal_principle_reform
 				tolerant_principle_reform
 				independent_principle_reform
 				empowered_principle_of_heritage_reform
 				empowered_principle_of_profit_reform
 				empowered_principle_of_power_reform
-				#amendable_constitution_reform
+				amendable_constitution_reform
 			}
 		}
 		electorate = {
@@ -911,8 +929,8 @@ republic = {
 				one_man_one_vote_reform
 				regents_reform
 				peasantry_reform
-				#electoral_college_reform
-				#direct_majority_rule_reform
+				electoral_college_reform
+				direct_majority_rule_reform
 			}
 		}
 		office_selection = {
@@ -924,8 +942,8 @@ republic = {
 				cultural_judges_reform
 				raadspensionaris_reform
 				hansa_universities_reform
-				#vice_presidential_system_reform
-				#legislative_office_selection_reform
+				vice_presidential_system_reform
+				legislative_office_selection_reform
 			}
 		}
 		question_of_dictatorship = {
@@ -1007,8 +1025,11 @@ tribal = {
 				gond_kingdom
 				great_mongol_state_reform
 				stateless_society
+				polynesian_kingdom
+				polynesian_tribe
 				# GE Reforms:
 				eghaevbo_administration_reform
+				siberian_tribal_confederation_reform
 			}
 		}
 		tribal_cultural_values = {
@@ -1024,6 +1045,7 @@ tribal = {
 				herders_of_the_steppe
 				legacy_of_pax_mongolia
 				three_jurchen_tribes_reform
+				snow_life_reform
 			}
 		}
 		tribal_religion = {
@@ -1038,6 +1060,7 @@ tribal = {
 				maintain_charade_reform
 				tolerance_of_the_church_reform
 				children_of_osanobua_reform
+				one_on_high_reform
 			}
 		}
 		military_organisation = {

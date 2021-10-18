@@ -42,6 +42,9 @@ autocracy_reform = {
 	modifiers = {
 		unjustified_demands = -0.1
 	}
+	custom_attributes = {
+		enables_royal_council = yes
+	}
 	ai = {
 		factor = 0.5 #generic
 	}
@@ -153,10 +156,6 @@ grand_duchy_reform = {
 	valid_for_nation_designer = yes
 	nation_designer_cost = 10
 	modifiers = {
-		diplomatic_upkeep = 2
-		min_autonomy_in_territories = -0.25
-		land_maintenance_modifier = -0.25
-		num_accepted_cultures = 2
 		governing_capacity = 100
 	}
 }
@@ -401,7 +400,7 @@ elective_monarchy = {
 		vassal_income = 0.25
 		global_unrest = -1
 		max_absolutism = -30
-		governing_capacity = 400 
+		governing_capacity = 100
 	}
 
 	conditional = {
@@ -455,7 +454,7 @@ english_monarchy = {
 	legacy_equivalent = english_monarchy_legacy
 	start_territory_to_estates = 0.3
 	modifiers = {
-		governing_capacity = 100
+		governing_capacity = 50
 		legitimacy = 0.5
 		global_unrest = -1
 		max_absolutism = -30
@@ -503,7 +502,7 @@ ottoman_government = {
 		unjustified_demands = -0.1
 		legitimacy = 0.5
 		max_absolutism = 5
-		governing_capacity = 300
+		governing_capacity = 150
 	}
 
 	custom_attributes = {
@@ -730,13 +729,20 @@ feudal_theocracy = {
 				has_reform = feudal_theocracy
 			}
 			AND = {
+				religion = zoroastrian
+				has_reform = feudal_theocracy
+			}
+			AND = {
 				is_playing_custom_nation = yes
 				have_had_reform = feudal_theocracy
 			}
 		}
 	}
 	nation_designer_trigger = {
-		religion_group = muslim
+		OR = {
+			religion_group = muslim
+			religion = zoroastrian
+		}
 	}
 	legacy_equivalent = feudal_theocracy_legacy
 	valid_for_nation_designer = yes
@@ -1619,7 +1625,7 @@ decentralize_reform = {
 	}
 	modifiers = {
 		num_accepted_cultures = 2
-		governing_capacity_modifier = 0.10
+		governing_capacity_modifier = 0.05
 	}
 	removed_effect = {
 		change_variable = {
