@@ -1501,7 +1501,7 @@ has_plantage_goods = {
 		trade_goods = saffron
 		trade_goods = opium
 		trade_goods = rum
-		trade_goods = clove
+		trade_goods = cloves
 		trade_goods = exotic_animals
 		trade_goods = vanilla
 	}

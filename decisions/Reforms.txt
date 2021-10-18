@@ -6,21 +6,21 @@ country_decisions = {
 		}
 		allow = {
 			OR = {
-				has_reform_level = 5
+				has_reform = weak_burghers_reform
 				AND = {
 					monthly_income = 40
 					land_forcelimit = 60
-					NOT = {
-						estate_influence = {
-							estate = estate_nobles
-							influence = 60
-						}
-					}
-					estate_loyalty = {
-						estate = estate_nobles
-						loyalty = 40
-					}
 				}
+			}
+			NOT = {
+				estate_influence = {
+					estate = estate_nobles
+					influence = 60
+				}
+			}
+			estate_loyalty = {
+				estate = estate_nobles
+				loyalty = 40
 			}
 		}
 		effect = {
@@ -336,7 +336,7 @@ country_decisions = {
 				1357 = { # Moluccas
 					is_strongest_trade_power = ROOT
 				}
-				4358 = { # Philiphines
+				1397 = { # Philiphines
 					is_strongest_trade_power = ROOT
 				}
 				amount = 2
@@ -385,12 +385,7 @@ country_decisions = {
 
     reforms_GE_solar_kingdom_reform = {
 		potential = {
-			government = monarchy
-			OR = {
-                culture_group = burman
-                culture_group = southeastasian_group
-			}
-			NOT = { has_reform = solar_kingdom_reform }
+			has_reform = basic_reformed_mandala_reform
 		}
 		
 		allow = {
@@ -520,8 +515,7 @@ country_decisions = {
 	check_empowered_requirements_again = {
 		major = no
 		potential = {
-			was_player = yes
-			always = no
+			always = yes
 		}
 		allow = {
 		}
@@ -555,18 +549,35 @@ country_decisions = {
 			has_government_attribute = enables_emergency_power
 		}
 		allow = {
-			republican_tradition = 25
+			republican_tradition = 20
 			NOT = {
 				has_ruler_modifier = GE_emergency_powers_modifier
 			}
 		}
 		effect = {
-			add_republican_tradition = -25
+			add_republican_tradition = -20
 			add_ruler_modifier = {
 				name = GE_emergency_powers_modifier
 				duration = 3650
 			}
 			add_absolutism = 20
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	GE_become_confederacy = {
+		major = yes
+		potential = {
+			has_reform = crown_of_aragon
+			#always = no
+		}
+		allow = {
+			always = yes
+		}
+		effect = {
+			change_government = confederacy
+			change_government_reform_progress = 10000
 		}
 		ai_will_do = {
 			factor = 0
